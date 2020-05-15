@@ -1,0 +1,302 @@
+/* header */
+/* nav区域 */
+#nav{
+    width: 800px;
+    position: relative;
+    left: 15%;
+    display: flex;
+}
+#nav-right{
+    display: flex;
+    
+}
+.nav-r-item{
+    padding: 20px 15px;
+    width: 65px;
+}
+.nav-r-item:hover{
+    background-color: rgb(221, 221, 221);
+    color: rgb(165, 105, 105);
+}
+/* slide */
+#slideshow{
+    overflow: hidden;
+    width: 1247px;
+    height: 280px;
+    /* position: relative;
+    top: 5px; */
+  }
+  /* 图片 */
+.ul_img img{
+    width: 100%;
+  }
+  .li_img {
+    width: 1247px;
+    float: left;
+    list-style: none;
+    overflow: hidden;
+  }
+  .ul_img {
+    width: 3741px;
+    padding: 0px;
+    /* margin-top: 10px; */
+    transition: all 4s;/*all是什么意思啊*/
+   
+  }
+  .ul_img:hover{
+    background:rgba(0,0,0,0.2);
+  }
+
+  /* 箭头 */
+.arrows {
+    z-index: 9999;
+    position: absolute;
+    top: 175px;
+    width: 1247px;
+  }
+  .arrows:hover{
+    display: inline;
+  }
+  .arrows span {
+    font-size: 3em;
+    color: seashell;
+    padding: 20px 5px;
+    background-color: rgba(192, 192, 192, 0.29);
+  }
+  .arrows span:hover {
+    display: inline-block;
+    cursor: pointer;/*光标形状变为手掌状*/
+    background: rgba(0, 0, 0, 0.1);
+    
+  }
+  /* 底下的按钮 */
+  #div_button{
+      /* 这里的位置得调 */
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+  }
+.div_btn {
+    cursor: pointer;
+    float: left;
+    border-radius: 10px;
+    background-color:white;
+    width: 8px;
+    height: 5px;
+    margin:0 0 5px 5px;
+    overflow: hidden;
+  }
+  .div_btn:hover {
+    width: 18px;
+  }
+#slide{
+    background: url(./images/homework_06.jpg) 50% 50%;
+    height: 280px;
+}
+.slide-t1,.slide-t2{
+    color: white;
+    position: relative;
+    left: 20%;
+    top: -80%;
+    width: 400px;
+}
+.slide-t1{
+    z-index: 9999;
+    font-size: 18px;
+}
+.slide-t2{
+    z-index: 9999;
+    font-size: 10px;
+}
+.slide-button{
+    z-index: 9999;
+    font-size: 16px;
+    border: white 0.5px solid;
+    width: 75px;
+    padding: 10px 10px;
+    color: white;
+    position: relative;
+    left: 20%;
+    top: -70%;
+}
+.slide-button:hover{
+    background-color: rgba(255, 255, 255, 0.384);
+}
+/* hot-area */
+#hot{
+    background-color: #D9251E;
+}
+#hot-content{
+    display: flex;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+.hot-con-item{
+    color: white;
+    width: 30%;
+}
+.hot-con-item:hover{
+    background-color: #C90001;
+}
+.hot-con-item ul li{
+    list-style: none;
+    list-style-image: url(./images/homework_12_02.jpg);
+    font-size: 14px;
+}
+.hot-con-i-button{
+    width: 40px;
+    padding: 5px 10px;
+    border: white 0.5px solid;
+}
+.hot-con-i-button:hover{
+    background-color: rgba(255, 255, 255, 0.384);
+}
+#hot-img-i-1{
+    background-image: url(./images/homework_09.jpg);
+    background-position: -5px 0px;
+    width: 80px;
+    height: 68px; 
+    position: relative;
+    left: 12%;
+}
+#hot-img-i-2{
+    background-image: url(./images/homework_09.jpg);
+    background-position: -310px 0px;
+    width: 80px;
+    height: 68px; 
+}
+#hot-img-i-3{
+    background-image: url(./images/homework_09.jpg);
+    background-position: -620px 0px;
+    width: 80px;
+    height: 68px; 
+}
+#hot-img-i-4{
+    background-image: url(./images/homework_09.jpg);
+    background-position: -950px 0px;
+    width: 80px;
+    height: 68px; 
+}
+/* content */
+/* content-top */
+#content-top h1{text-align: center;}
+#content-top-con{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    position: relative;
+    left: 6%;
+}
+.content-top-tit{
+    color: #D9251E;
+    font-weight: bold;
+    font: 16px;
+}
+.content-top-p{
+    color: #949494;
+    font-size: 12px;
+}
+/* content-mid */
+#content-mid{
+    display: flex;
+    width: 1000px;
+    position: relative;
+    left: 10%;
+    justify-content: space-between;
+}
+.content-mid-item-tit-l{
+    background-color: #D9251E;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+.content-mid-item-tit-m{
+    font-weight: bold;
+}
+.content-mid-item-tit-r{
+    display: inline-block;
+    border-bottom: #D9251E 1px solid;
+    width: 400px;
+}
+.content-mid-item-tit-e{
+    position: relative;
+    left: 70%;
+}
+.content-mid-item-con li{
+    list-style: none;
+    font-size: 14px;
+    color: #939393;
+    border-bottom: #939393 1px dotted;
+}
+/* content-bot */
+#content-bot{
+    position: relative;
+    left: 10%;
+    width: 1000px;
+}
+.content-bot-item-tit-l{
+    background-color: #D9251E;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+.content-bot-item-tit-m{
+    font-weight: bold;
+}
+.content-bot-item-tit-r{
+    display: inline-block;
+    border-bottom: #D9251E 1px solid;
+    width: 980px;
+}
+#content-bot-content{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+#content-bot-content img{
+    width: 100%;
+}
+/* footer */
+/* footer-top */
+#footer-top{
+    background-color: #D9251E;
+    color: white;
+}
+.footer-top-right{
+    display: flex;
+}
+.footer-top-t-item p{
+    font-size: 12px;
+}
+.footer-top-img img{
+    width: 80%;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+/* footer-bot */
+#footer-bot{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 12px;
+    text-align: center;
+    height: 60px;
+}
+/* back-top */
+#back-top{
+    background-color: rgba(119, 117, 117, 0.199);
+    
+    position: fixed;
+    bottom: 80px;
+    right: 0px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    font-size: 44px;
+}
+#back-top:hover{
+    background-color: rgba(58, 57, 57, 0.199);
+}
+
